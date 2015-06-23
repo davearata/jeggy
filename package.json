@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/indicium/jeggy.git"
+    "url": "https://github.com/davearata/jeggy.git"
   },
   "keywords": [
     "boilerplate",
@@ -23,9 +23,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/indicium/jeggy/issues"
+    "url": "https://github.com/davearata/jeggy/issues"
   },
-  "homepage": "https://github.com/indicium/jeggy",
+  "homepage": "https://github.com/davearata/jeggy",
   "devDependencies": {
     "babel": "^5.4.7",
     "babel-core": "^5.4.7",
