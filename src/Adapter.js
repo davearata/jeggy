@@ -7,5 +7,3 @@ export class Adapter {
     throw new Error('getCollections not implemented');
   }
 }
-
-export default Adapter;
