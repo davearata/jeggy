@@ -6,4 +6,8 @@ export class Adapter {
   getCollections() {
     throw new Error('getCollections not implemented');
   }
+
+  populate() {
+    throw new Error('populate not implemented');
+  }
 }

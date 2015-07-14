@@ -11,4 +11,8 @@ describe('Adapter', function() {
   it('should throw an error if getCollections is not implemented', () => {
     expect(() => { myAdapter.getCollections(); }).to.throw(Error);
   });
+
+  it('should throw an error if populate is not implemented', () => {
+    expect(() => { myAdapter.populate(); }).to.throw(Error);
+  });
 });

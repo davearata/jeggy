@@ -13,4 +13,8 @@ export class Jeggy {
   getCollections() {
     return this.adapter.getCollections();
   }
+
+  populate(docs, fieldKey, collectionName) {
+    return this.adapter.populate(docs, fieldKey, collectionName);
+  }
 }

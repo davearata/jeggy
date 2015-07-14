@@ -27,6 +27,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       value: function getCollections() {
         return this.adapter.getCollections();
       }
+    }, {
+      key: 'populate',
+      value: function populate(docs, fieldKey, collectionName) {
+        return this.adapter.populate(docs, fieldKey, collectionName);
+      }
     }]);
 
     return Jeggy;
@@ -100,6 +105,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       key: 'getCollections',
       value: function getCollections() {
         throw new Error('getCollections not implemented');
+      }
+    }, {
+      key: 'populate',
+      value: function populate() {
+        throw new Error('populate not implemented');
       }
     }]);
 
