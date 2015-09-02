@@ -22,6 +22,10 @@ export class Collection {
     throw new Error('create not implemented');
   }
 
+  insertMany() {
+    throw new Error('insertMany not implemented');
+  }
+
   removeWhere() {
     throw new Error('removeWhere not implemented');
   }
