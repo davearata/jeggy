@@ -89,6 +89,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       value: function update() {
         throw new Error('update not implemented');
       }
+    }, {
+      key: 'updateMany',
+      value: function updateMany() {
+        throw new Error('updateMany not implemented');
+      }
     }]);
 
     return Collection;

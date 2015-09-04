@@ -37,4 +37,8 @@ export class Collection {
   update() {
     throw new Error('update not implemented');
   }
+
+  updateMany() {
+    throw new Error('updateMany not implemented');
+  }
 }

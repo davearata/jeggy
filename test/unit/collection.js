@@ -42,4 +42,8 @@ describe('Collection', function() {
   it('should throw an error if update is not implemented', () => {
     expect(() => { myCollection.update(); }).to.throw(Error);
   });
+
+  it('should throw an error if updateMany is not implemented', () => {
+    expect(() => { myCollection.updateMany(); }).to.throw(Error);
+  });
 });
