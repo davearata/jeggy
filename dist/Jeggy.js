@@ -70,6 +70,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         throw new Error('create not implemented');
       }
     }, {
+      key: 'count',
+      value: function count() {
+        throw new Error('count not implemented');
+      }
+    }, {
       key: 'insertMany',
       value: function insertMany() {
         throw new Error('insertMany not implemented');
