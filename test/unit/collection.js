@@ -27,6 +27,10 @@ describe('Collection', function() {
     expect(() => { myCollection.create(); }).to.throw(Error);
   });
 
+  it('should throw an error if count is not implemented', () => {
+    expect(() => { myCollection.count(); }).to.throw(Error);
+  });
+
   it('should throw an error if insertMany is not implemented', () => {
     expect(() => { myCollection.insertMany(); }).to.throw(Error);
   });

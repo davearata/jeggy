@@ -22,6 +22,10 @@ export class Collection {
     throw new Error('create not implemented');
   }
 
+  count() {
+    throw new Error('count not implemented');
+  }
+
   insertMany() {
     throw new Error('insertMany not implemented');
   }
