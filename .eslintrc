@@ -1,7 +1,10 @@
 {
-  "parser": "babel-eslint",
-  "ecmaFeatures": {
-    "modules": true
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "templateStrings": true
+    }
   },
   "env": {
     "browser": true,
@@ -9,13 +12,7 @@
     "node": true,
     "mocha": true
   },
-  "rules": {
-    "quotes": [2, "single"],
-    "eol-last": [0],
-    "no-mixed-requires": [0],
-    "no-underscore-dangle": [0],
-    "strict": [2, "global"]
-  },
+  "extends": ["standard"],
   "globals": {
     "expect": false
   }

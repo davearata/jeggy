@@ -1,5 +1,5 @@
-export { Jeggy } from './Jeggy';
+export { Jeggy } from './Jeggy'
 
-export { Collection } from './Collection';
+export { Collection } from './Collection'
 
-export { Adapter } from './Adapter';
+export { Adapter } from './Adapter'
